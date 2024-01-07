@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <nav>
+      <div class="mobile">
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <span class="menu-open" id="menuOpen">
+          <img
+            src="./images/icon-menu.svg"
+            alt=""
+            class="menu-open"
+            id="menuOpen"
+          />
+        </span>
+      </div>
+      <div class="mobi" id="mobileMenu">
+        <span class="menu-close" id="menuClose">
+          <img
+            src="./images/icon-close-menu.svg"
+            alt=""
+            class="menu-close"
+            id="menuClose"
+          />
+        </span>
+        <div class="left" id="mobileMenuLeft">
+          <ul class="links desk">
+            <li class="link dropdown">
+              <a href=""
+                >Features
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt=""
+                  class="arrow-down"
+              /></a>
+              <ul class="dropdown-content">
+                <li class="drop">
+                  <img src="./images/icon-todo.svg" alt="" /> Todo List
+                </li>
+                <li class="drop">
+                  <img src="./images/icon-calendar.svg" alt="" /> Calender
+                </li>
+                <li class="drop">
+                  <img src="./images/icon-reminders.svg" alt="" /> Reminders
+                </li>
+                <li class="drop">
+                  <img src="./images/icon-planning.svg" alt="" /> Planning
+                </li>
+              </ul>
+            </li>
+            <li class="link dropdown">
+              <a href=""
+                >Company
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt=""
+                  class="arrow-down"
+              /></a>
+              <ul class="dropdown-content">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </li>
+            <li class="link"><a href="">Careers</a></li>
+            <li class="link"><a href="">About</a></li>
+          </ul>
+        </div>
+        <div class="right" id="mobileMenuRight">
+          <div class="desk">
+            <a href="" class="link">Login</a>
+            <a href="" class="link btn">Register</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="hero">
+        <div class="text-container">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <a href="" class="btn btn-pri">Learn more</a>
+          <span class="partners">
+            <img src="./images/client-databiz.svg" alt="" />
+            <img src="./images/client-audiophile.svg" alt="" />
+            <img src="./images/client-meet.svg" alt="" />
+            <img src="./images/client-maker.svg" alt="" />
+          </span>
+        </div>
+        <div class="img-container">
+          <img
+            src="./images/image-hero-desktop.png"
+            alt=""
+            class="hero-image"
+          />
+          <img
+            src="./images/image-hero-mobile.png"
+            alt=""
+            class="hero-image-mobile"
+          />
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>

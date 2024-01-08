@@ -229,6 +229,7 @@ input {
   }
 
   .mobi {
+    display: none;
     padding: 1rem 2rem;
     top: 0;
     right: 0;

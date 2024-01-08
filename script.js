@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   openMenu.addEventListener("click", function () {
     mobileMenu.style.display = "block";
-    console.log(mobileMenu.style.display);
   });
 
   closeMenu.addEventListener("click", function () {
